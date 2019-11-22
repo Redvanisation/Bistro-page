@@ -5,12 +5,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Restaurant Page</title>
-    <link rel="stylesheet" href="dist/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel:400,700,900&display=swap" rel="stylesheet">    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../dist/main.css">
 </head>
 <body>
     
-    <div id="content"></div>
+    <div class="content">
+            <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark down-nav">
+                    <a class="navbar-brand " href="#">Navbar</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                      <ul class="navbar-nav">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Contact</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </nav> -->
 
-    <script src="main.js"></script>
+                  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-bottom down-nav">
+                        <div class="d-flex w-50 order-0">
+                            <a class="navbar-brand mr-1" href="#">Our Bistro</a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                        </div>
+                        <div class="navbar-collapse collapse justify-content-center order-2" id="collapsingNavbar">
+                            <ul class="navbar-nav">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Home <span class="sr-only">Home</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Menu</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <span class="navbar-text small text-truncate mt-1 w-50 text-right order-1 order-md-last"></span>
+                    </nav>
+
+       
+                  
+                  <!-- <header class="bg-black-90 fixed w-100 ph3 pv3 pv4-ns ph4-m ph5-l nav">
+            <nav class="f6 fw6 ttu tracked">
+                <a class="link dim white dib mr3" href="#" title="Home">Home</a>
+                <a class="link dim white dib mr3" href="#" title="About">About</a>
+                <a class="link dim white dib mr3" href="#" title="Store">Menu</a>
+                <a class="link dim white dib" href="#" title="Contact">Contact</a>
+            </nav>
+        </header> -->
+        <main class="main">
+            <div class="title">
+                <h1 class="f1 h1">The Smudge Bistro</h1>
+            </div>
+
+            <div class="description-div">
+                <h2 class="description-h2">The best bistro on the planet</h2>
+                <h3 class="description-h3">We don't serve no vegetables</h3>
+            </div>
+        </main>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="../dist/main.js"></script>
 </body>
 </html>
