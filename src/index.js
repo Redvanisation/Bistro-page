@@ -1,1 +1,1 @@
-alert('Everything is ready!');
+// alert('Everything is ready!');
