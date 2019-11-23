@@ -8,7 +8,6 @@ const makeElem = (elm, cont, classes) => {
 const content = document.querySelector('.content');
 
 
-
 export {
   makeElem,
   content,

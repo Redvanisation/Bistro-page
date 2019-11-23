@@ -1,4 +1,3 @@
-import { loading } from './initial';
 import { makeElem, content } from './shared';
 
 

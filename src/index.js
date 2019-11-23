@@ -17,15 +17,15 @@ const contactTab = document.querySelector('#contact');
 const logo = document.querySelector('#logo');
 
 const changeMenu = (e) => {
-    if (e.srcElement === homeTab || e.srcElement === logo) {
-        content.innerHTML = '';
-        home();
-    } else if (e.srcElement === menuTab) {
-        menu();
-    } else {
-        content.innerHTML = '';
-        contact();
-    }
+  if (e.srcElement === homeTab || e.srcElement === logo) {
+    content.innerHTML = '';
+    home();
+  } else if (e.srcElement === menuTab) {
+    menu();
+  } else {
+    content.innerHTML = '';
+    contact();
+  }
 };
 
 homeTab.addEventListener('click', changeMenu);

@@ -1,4 +1,3 @@
-import home from './initial';
 import { makeElem, content } from './shared';
 
 
