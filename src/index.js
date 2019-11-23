@@ -5,11 +5,8 @@ import contact from './contact';
 import nav from './nav';
 import { content } from './shared';
 
-
 nav();
 home();
-// menu();
-// contact();
 
 const homeTab = document.querySelector('#home');
 const menuTab = document.querySelector('#menu');
@@ -32,5 +29,3 @@ homeTab.addEventListener('click', changeMenu);
 menuTab.addEventListener('click', changeMenu);
 contactTab.addEventListener('click', changeMenu);
 logo.addEventListener('click', changeMenu);
-
-// console.log(theNav);
