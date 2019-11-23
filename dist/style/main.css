@@ -1,0 +1,135 @@
+body {
+    background: linear-gradient(to left, rgba(0,0,0,.5), rgba(20,20,20,.5)), url('../img/blk-restaurant.jpg');
+    background-size: cover;
+    /* background-position: 0 -300px; */
+    background-position: top;
+    color: #fff;
+    font-family: 'Cinzel', serif !important;
+}
+
+.down-nav {
+    background-color: #000 !important;
+}
+
+.main {
+    position: relative;
+    padding-bottom: 5rem;
+}
+
+.title {
+    position: relative;
+    height: 300px;
+}
+
+.h1 {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    letter-spacing: 10px;
+    font-weight: 600;
+}
+
+.description-div {
+    position: relative;
+    height: 100px;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20%;
+}
+
+.description-h2 {
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+
+.description-h3 {
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 95vw;
+    margin: 1rem;
+    margin-top: 5rem;
+    padding: 5rem;
+    border-radius: 5px;
+    background-color: rgba(20,20,20,.95);
+    z-index: 900;
+}
+
+.menu-title {
+    margin-bottom: 2rem;
+    font-family: 'Cinzel', serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.bistro-card {
+    background-color: rgba(30,30,30,.8) !important;
+}
+
+.card-image {
+    max-height: 250px;
+    max-width: 100%;
+    position: relative;
+    z-index: 99;
+    filter: grayscale(100%);
+    transition: all .5s;
+}
+
+.card {
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.card:hover {
+    transform: translateY(-2px) scale(1.01);
+}
+
+.card:hover .card-image {
+    filter: grayscale(30%);
+    transform: scale(1.01);
+}
+
+.card-title {
+    font-weight: 700;
+}
+
+.card-text,
+.form {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.form-container {
+    height: 80vh;
+}
+
+.form {
+    max-width: 80%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form-title {
+    margin-bottom: 2rem;
+    font-family: 'Cinzel', serif;
+    font-weight: 700;
+}
+
+.form-control {
+    background-color: transparent;
+}
+
+.form-control:focus {
+    background-color: transparent;
+    color: #fff;
+}
+
