@@ -5,8 +5,14 @@ import contact from './contact';
 import nav from './nav';
 import { content } from './shared';
 
-nav();
-home();
+
+const render = () => {
+  nav();
+  home();
+};
+
+window.addEventListener('DOMContentLoad', render());
+
 
 const homeTab = document.querySelector('#home');
 const menuTab = document.querySelector('#menu');

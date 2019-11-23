@@ -8,7 +8,7 @@ const home = () => {
   
     <div class="description-div">
         <h2 class="description-h2">Modern cuisine bistro</h2>
-        <h3 class="description-h3">Best quality and best atmonsphere</h3>
+        <h3 class="description-h3">Best quality and best atmosphere</h3>
     </div>
   `;
 
