@@ -1,5 +1,5 @@
-import { loading } from './initial';
-import makeElem from './initial';
+import home from './initial';
+import { makeElem, content } from './shared';
 
 
 export default function contact() {
@@ -24,5 +24,5 @@ export default function contact() {
             </form>
     `;
 
-  loading.content.appendChild(loading.makeElm('div', theContact, formAttr));
+  content.appendChild(makeElem('div', theContact, formAttr));
 }

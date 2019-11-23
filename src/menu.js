@@ -1,4 +1,6 @@
 import { loading } from './initial';
+import { makeElem, content } from './shared';
+
 
 const menu = () => {
   const cardsAttr = 'container';
@@ -60,7 +62,7 @@ const menu = () => {
           </div>
   `;
 
-  content.appendChild()
+  content.appendChild(makeElem('div', theMenu, cardsAttr));
 };
 
 export default menu;
