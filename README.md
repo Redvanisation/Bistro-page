@@ -4,6 +4,10 @@
 
 This is a restaurant page that works with JavaScript to generate all different pages and the content, making use of **webpack**, **npm** and **ES6 Modules**. 
 
+## Live link:
+
+[Red's Bistro](https://rawcdn.githack.com/Redvanisation/Bistro-page/feature/restaurant/dist/index.html)
+
 
 ### Built With
 
